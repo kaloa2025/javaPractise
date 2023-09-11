@@ -1,4 +1,4 @@
-package javaPractise;
+package JAVAPRACTISE;
 import java.util.*;
 public class example
 {
