@@ -11,7 +11,7 @@ public class Sample
         Sample s2=new Sample();
         s2.num1=40;
         s2.num2=50;
-        System.out.println(s1.num1+" "+s1.num2);
-        System.out.println(s2.num1+" "+s2.num2);
+        System.out.println(s1.num1+" "+Sample.num2);
+        System.out.println(s2.num1+" "+Sample.num2);
     }
 }
