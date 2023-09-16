@@ -1,4 +1,4 @@
-package JAVAPRACTISE;
+
 
 public class FinalEx_Person 
 {

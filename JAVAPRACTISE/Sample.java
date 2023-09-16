@@ -1,4 +1,4 @@
-package JAVAPRACTISE;
+
 public class Sample
 {
     private int num1;
