@@ -18,3 +18,9 @@ public class stringdiff {
         System.out.println(s.findTheDifference("abcd", "abcde"));
     }
 }
+
+//singelton - static object
+//S1) Static final refrence variable
+//S2) Makes constructor private
+//S3) A static method who return object
+
