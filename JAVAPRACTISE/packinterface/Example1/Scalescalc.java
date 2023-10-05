@@ -1,5 +1,5 @@
 package packinterface.Example1;
-
+//parent class
 public interface Scalescalc {
     public String getname();
     public double calcSalesPrice();
