@@ -7,11 +7,11 @@ public class Solution
         {
             if(operations[i]=="--X"||operations[i]=="X--")
             {
-                x--;
+                x=x-1;
             }
             if(operations[i]=="X++"||operations[i]=="++X")
             {
-                x++;
+                x=x+1;
             }
         }
         return x;
