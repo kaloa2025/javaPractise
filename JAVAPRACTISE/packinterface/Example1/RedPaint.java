@@ -1,7 +1,7 @@
 package packinterface.Example1;
 
 public class RedPaint implements Scalescalc {
-    private String name="Redpaint";
+    private String name="RedPaint";
     private double salesPrice=0;
     private double cost=0;
     private double weight=0;

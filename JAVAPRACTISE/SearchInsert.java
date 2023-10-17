@@ -11,7 +11,7 @@ public class SearchInsert {
             {
                 if(target>nums[i])
                 {
-                    //continue;
+                    
                 }
                 else
                 {

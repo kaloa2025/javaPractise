@@ -1,7 +1,7 @@
 package packinterface.Example1;
 
 public class CrushedRock implements Scalescalc {
-    private String name="Crushed Rock";
+    private String name="CrushedRock";
     private double salesPrice=0;
     private double cost=0;
     private double weight=0;
