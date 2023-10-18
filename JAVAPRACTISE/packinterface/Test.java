@@ -24,9 +24,9 @@ public class Test {
         Scalescalc[] itemList=new Scalescalc[5];
         ItemReport report=new ItemReport();
         
-        itemList[0]=new CrushedRock(10,12, 50);
-        itemList[1]=new RedPaint(20,8,2);
-        itemList[2]=new Widget(60,5,10);
+        itemList[0]=new CrushedRock(12,10, 60);
+        itemList[1]=new RedPaint(22,18,20);
+        itemList[2]=new Widget(60,50,10);
 
         for(Scalescalc item:itemList)
         {
