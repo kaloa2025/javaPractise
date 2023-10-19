@@ -21,16 +21,16 @@ public class Test {
         // System.out.println("Cost"+s.calccost());
         // System.out.println("name"+s.getname());
         // //
-        Scalescalc[] itemList=new Scalescalc[5];
+        Scalescalc[] il=new Scalescalc[5];
         ItemReport report=new ItemReport();
         
-        itemList[0]=new CrushedRock(12,10, 60);
-        itemList[1]=new RedPaint(22,18,20);
-        itemList[2]=new Widget(60,50,10);
+        il[0]=new CrushedRock(12,10, 60);
+        il[1]=new RedPaint(22,18,20);
+        il[2]=new Widget(60,50,10);
 
-        for(Scalescalc item:itemList)
+        for(Scalescalc items:il)
         {
-            report.printItemData(item);
+            report.printItemData(items);
         }
 
     }
