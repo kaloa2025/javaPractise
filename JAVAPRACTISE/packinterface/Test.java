@@ -5,6 +5,8 @@ import packinterface.Example1.ItemReport;
 import packinterface.Example1.RedPaint;
 import packinterface.Example1.Scalescalc;
 import packinterface.Example1.Widget;
+import packinterface.Example1.WidgetPro;
+import packinterface.Example1.WidgetSalesCalcs;
 
 public class Test {
     public static void main(String[] args) {
@@ -23,15 +25,16 @@ public class Test {
         // //
         Scalescalc[] il=new Scalescalc[5];
         ItemReport report=new ItemReport();
-        
         il[0]=new CrushedRock(12,10, 60);
         il[1]=new RedPaint(22,18,20);
         il[2]=new Widget(60,50,10);
-
-        for(Scalescalc items:il)
-        {
-            report.printItemData(items);
-        }
-
+        il[0]=new WidgetPro(12, 10, 200, "json");
+        // for(Scalescalc items:il)
+        // {
+        //     report.printItemData(items);
+        // }
+        // Scalescalc.printItemArray(il);
+        WidgetSalesCalcs y=new WidgetPro(10, 2, 5, "json");
+        System.out.println(y.getWidgetType());
     }
 }
