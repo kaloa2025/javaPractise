@@ -1,3 +1,4 @@
+package Extra;
 public class stringdiff {
     public char findTheDifference(String s, String t) {
         String r=s.replace("t"," ");
