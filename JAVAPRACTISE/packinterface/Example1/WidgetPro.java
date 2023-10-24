@@ -1,14 +1,14 @@
 package packinterface.Example1;
 
 public class WidgetPro extends Widget implements WidgetSalesCalcs {
-    private String type;
-    public WidgetPro(double salesPrice, double cost, double weight, String type) {
+    private String types;
+    public WidgetPro(double salesPrice, double cost, double weight, String types) {
         super(salesPrice, cost, weight);
-        this.type=type;
+        this.types=types;
     }
     @Override
     public String getWidgetType() {
-        return type;
+        return types;
     }
     
 }
