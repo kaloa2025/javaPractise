@@ -10,5 +10,4 @@ public class WidgetPro extends Widget implements WidgetSalesCalcs {
     public String getWidgetType() {
         return types;
     }
-    
 }
