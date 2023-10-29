@@ -1,8 +1,8 @@
 package LambdaExpression;
 
 public class AnalyzerTool {
-    public boolean arrContains(String sourceString, String sStr)
+    public boolean arrContains(String sString, String sStr)
     {
-        return sourceString.contains(sStr);
+        return sString.contains(sStr);
     }    
 }
