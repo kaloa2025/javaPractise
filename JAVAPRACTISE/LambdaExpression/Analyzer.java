@@ -1,5 +1,5 @@
 package LambdaExpression;
 
 public interface Analyzer {
-    public boolean analyze(String sourceString, String searchStr);
+    public boolean analyze(String sourceS, String searchS);
 }

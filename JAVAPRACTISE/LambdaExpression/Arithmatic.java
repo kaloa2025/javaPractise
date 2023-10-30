@@ -1,5 +1,5 @@
 package LambdaExpression;
 
 public interface Arithmatic {
-    public void sum(int a,int b);    
+    public void sum(int x,int y);    
 }
