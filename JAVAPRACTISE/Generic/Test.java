@@ -2,11 +2,13 @@ package Generic;
 
 public class Test {
     public static void main(String[] args) {
-        Data<String> d=new Data<String>();
+        Data<String,String> d=new Data<String,String>();
         d.setT("AALOK");
-        Data<Integer> d1=new Data<Integer>();
+        d.setV("Yash");
+        Data<Integer,String> d1=new Data<Integer,String>();
         d1.setT(123);
-        System.out.println(d.getT());
-        System.out.println(d1.getT());
+        d1.setV("Namess");
+        System.out.println(d.getT()+" "+d.getV());
+        System.out.println(d1.getT()+" "+d1.getV());
     }
 }
