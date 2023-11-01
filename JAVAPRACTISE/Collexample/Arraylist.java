@@ -1,11 +1,10 @@
 package Collexample;
 import java.util.ArrayList;
 import java.util.List;
-// import java.util.io.*;
 
 public class Arraylist {
     public static void main(String[] args) {
-        List<Integer> list =new ArrayList<>();
+        List<Integer> list =new ArrayList<Integer>();
         //old method
         list.add(new Integer(12));
         list.add(new Integer(13));
@@ -13,7 +12,8 @@ public class Arraylist {
         {
             System.out.println(x);
         }
-        List<String> str=new ArrayList<>();
+        //new method
+        List<String> str=new ArrayList<String>();
         str.add("Aalok");
         str.add("Yash");
         str.add("Lavish");
