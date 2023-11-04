@@ -1,6 +1,8 @@
 package Collexample;
 import java.util.Set;
 import java.util.TreeSet;
+//Shift+Alt+O
+
 public class Treee {
     public static void main(String[] args) {
         Set<String> s=new TreeSet<>();
