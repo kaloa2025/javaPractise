@@ -7,11 +7,10 @@ import java.util.TreeMap;
 public class TreeMAp {
     public static void main(String[] args) {
         Map<String,String> pl=new TreeMap<>();
-        pl.put("S001","aalok");
-        pl.put("S002","yash");
-        pl.put("S003","Lavish");
-
-        pl.put("S002", "Chu");
+        pl.put("S01","aalok");
+        pl.put("S02","yash");
+        pl.put("S03","Lavish");
+        pl.put("S002", "Kaiydinge");
         Set<String> keys=pl.keySet();
 
         for(String s:keys)
