@@ -6,7 +6,8 @@ import java.util.TreeMap;
 
 public class TreeMAp {
     public static void main(String[] args) {
-        Map<String,String> pl=new TreeMap<>();
+        TreeMap<String,String> pl=new TreeMap<>();
+        //Map<String,String> pl=new TreeMap<>();
         pl.put("S01","aalok");
         pl.put("S02","yash");
         pl.put("S03","Lavish");
