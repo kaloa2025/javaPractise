@@ -5,10 +5,13 @@ public class Test {
         Data<String,String> d=new Data<String,String>();
         d.setT("AALOK");
         d.setV("Yash");
+        d.setA("aalom");
+
         Data<Integer,String> d1=new Data<Integer,String>();
         d1.setT(123);
         d1.setV("Namess");
         System.out.println(d.getT()+" "+d.getV());
         System.out.println(d1.getT()+" "+d1.getV());
+        System.out.println(d.getA());
     }
 }
