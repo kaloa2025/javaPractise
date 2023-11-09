@@ -6,6 +6,7 @@ public class Test {
         d.setT("AALOK");
         d.setV("Yash");
         d.setA("aalom");
+        d.setA("aalon");
 
         Data<Integer,String> d1=new Data<Integer,String>();
         d1.setT(123);
