@@ -12,8 +12,8 @@ public class TreeMAp {
         pl.put("S02","yash");
         pl.put("S03","Lavish");
         pl.put("S002", "Kaiydinge");
+        pl.put("S003","Aalok");
         Set<String> keys=pl.keySet();
-
         for(String s:keys)
         {
             System.out.println(s+" "+pl.get(s));
