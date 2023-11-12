@@ -6,7 +6,8 @@ public class Member {
         class Minner{
             public void m3()
             {
-                System.out.println("Hellooo");
+                System.out.println("Hi this is member class");
+                System.out.println("Welcome");
             }
         }
         Minner m=new Minner();
