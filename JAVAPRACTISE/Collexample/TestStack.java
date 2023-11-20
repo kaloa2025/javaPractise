@@ -1,4 +1,4 @@
-package Stack;
+package Collexample;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
