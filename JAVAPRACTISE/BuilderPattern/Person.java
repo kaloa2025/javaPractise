@@ -44,6 +44,11 @@ public class Person {
         return id+name+mobile+gender;
     }
 
+    public void printSummary()
+    {
+        System.out.println(id+name+mobile+gender);
+    }
+
 }
 
 // id name mobile (enum)gender
