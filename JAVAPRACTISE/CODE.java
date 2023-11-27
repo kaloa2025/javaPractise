@@ -23,29 +23,30 @@ public class CODE {
         return count;
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();//no of customers
-        int m=sc.nextInt();//no of rice bags
-        int[][] cp=new int[n][2];//a,b:customers quantity&cost
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<2;j++)
+        try (Scanner sc = new Scanner(System.in)) {
+            int n=sc.nextInt();//no of customers
+            int m=sc.nextInt();//no of rice bags
+            int[][] cp=new int[n][2];//a,b:customers quantity&cost
+            for(int i=0;i<n;i++)
             {
-                cp[i][j]=sc.nextInt();
+                for(int j=0;j<2;j++)
+                {
+                    cp[i][j]=sc.nextInt();
+                }
             }
-        }
-        int[][] qc=new int[m][2];//p,q:bags quantity&cost
-        for(int i=0;i<m;i++)
-        {
-            for(int j=0;j<2;j++)
+            int[][] qc=new int[m][2];//p,q:bags quantity&cost
+            for(int i=0;i<m;i++)
             {
-                qc[i][j]=sc.nextInt();
+                for(int j=0;j<2;j++)
+                {
+                    qc[i][j]=sc.nextInt();
+                }
             }
+            //price of bag <= custoem
+            //qualit of bag >pref
+            int r=mbs(n,m,cp,qc);
+            System.out.println(r);
         }
-        //price of bag <= custoem
-        //qualit of bag >pref
-        int r=mbs(n,m,cp,qc);
-        System.out.println(r);
     }
     
 }
