@@ -8,7 +8,7 @@ public class VIPCAFE {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();//total orders
-        int[] a=new int[n];//array of prioritys
+        int[] a=new int[n];//array of priorities
         for(int i=0;i<n;i++)
         {
             a[i]=sc.nextInt();

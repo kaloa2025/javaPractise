@@ -12,3 +12,5 @@ public class ExampleStreamFilter {
         p1.stream().filter(all).forEach(a->a.printSummary());
     }
 }
+//method refrence
+//-instance,-constructor,-arbotry,-static
