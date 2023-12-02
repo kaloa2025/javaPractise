@@ -1,6 +1,4 @@
 package BuilderPattern;
-
-public class ConstructorMethodRefrence {
     class User
     {
         private int uid;
@@ -14,8 +12,13 @@ public class ConstructorMethodRefrence {
             this.uid=uid;
             this.name=name;
         }
-    }
-    Interface Inter1
+        public String getName() {
+            return name;
+        }
+        public int getUid() {
+            return uid;
+        }
+    interface Inter1
     {
         public User create(int uid, String name);
     }
