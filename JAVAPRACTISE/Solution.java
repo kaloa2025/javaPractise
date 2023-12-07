@@ -1,22 +1,71 @@
-import java.util.*;
-public class Solution {
+// /*
+// You are given a rectangular board of M × N squares.
+//  Also you are given an unlimited number of standard domino pieces 
+//  of 2 × 1 squares. You are allowed to rotate the pieces. 
+//  You are asked to place as many dominoes as possible on the board so as to 
+//  meet the following conditions:
+// 1. Each domino completely covers two squares.
+// 2. No two dominoes overlap.
+// 3. Each domino lies entirely inside the board. It is allowed to touch the
+// edges of the board.
+// Find the maximum number of dominoes, 
+// which can be placed under these restrictions.
+// Input
+// In a single line you are given two integers M and N — 
+// board sizes in squares (1 ≤ M ≤ N ≤ 16).
+// Output
+// Output one number — the maximal number of dominoes, which can be placed.
+//  */
+
+// import java.util.Scanner;
+
+// public class Solution {
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         int m=sc.nextInt();
+//         int n=sc.nextInt();
+//         System.out.println((m*n)/2);
+//     }
+// }
+
+/*
+ The classic programming language of Bitland is Bit++. This language is so peculiar and complicated.
+The language is that peculiar as it has exactly one variable, called x. Also, there are two operatins:
+Operation ++ increases the value of variable x by 1.
+Operation -- decreases the value of variable x by 1.
+A statement in language Bit++ is a sequence, consisting of exactly one operation and one variable x. 
+The statement is written without spaces, that is, it can only contain characters "+", "-", "X". 
+Executing a statement means applying the operation it contains.
+A programme in Bit++ is a sequence of statements, each of them needs to be executed. 
+Executing a programme means executing all the statements it contains.
+You're given a programme in language Bit++. The initial value of x is 0. 
+Execute the programme and find its final value (the value of the variable when this programme is executed).
+
+Input
+The first line contains a single integer n (1 ≤ n ≤ 150) — the number of statements in the programme.
+Next n lines contain a statement each. Each statement contains exactly one operation (++ or --) and 
+exactly one variable x (denoted as letter «X»). Thus, there are no empty statements. 
+The operation and the variable can be written in any order.
+
+Output
+Print a single integer — the final value of x.
+ */
+import java.util.Scanner;
+
+public class Solution{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int k=sc.nextInt();
-        int count=0;
-        int[] a=new int[n];
+        int x=0;
+        String[] a=new String[n];
         for(int i=0;i<n;i++)
         {
-            a[i]=sc.nextInt();
+            a[i]=sc.next();
+            if(a[i].charAt(1)=='+')
+            {x++;}
+            else
+            {x--;}
         }
-        for(int i=0;i<n;i++)
-        {
-            if(a[i]>0&&a[i]>=a[k-1])
-            {
-                count++;
-            }
-        }
-        System.out.println(count);
+        System.out.println(x);
     }
 }
