@@ -49,23 +49,59 @@ The operation and the variable can be written in any order.
 
 Output
 Print a single integer — the final value of x.
- */
-import java.util.Scanner;
+//  */
+// import java.util.Scanner;
 
-public class Solution{
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int x=0;
-        String[] a=new String[n];
-        for(int i=0;i<n;i++)
-        {
-            a[i]=sc.next();
-            if(a[i].charAt(1)=='+')
-            {x++;}
-            else
-            {x--;}
-        }
-        System.out.println(x);
-    }
+// public class Solution{
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         int n=sc.nextInt();
+//         int x=0;
+//         String[] a=new String[n];
+//         for(int i=0;i<n;i++)
+//         {
+//             a[i]=sc.next();
+//             if(a[i].charAt(1)=='+')
+//             {x++;}
+//             else
+//             {x--;}
+//         }
+//         System.out.println(x);
+//     }
+// }
+
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Solution
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        int t;
+		Scanner sc=new Scanner(System.in);
+		t=sc.nextInt();
+		while(t>0)
+		{
+		    int n=sc.nextInt();
+		    int largestPowerOf2 = 0;
+		    while(n%2==0)
+		    {
+		        n/=2;
+		        largestPowerOf2++;
+		    }
+		    if(largestPowerOf2%2==0)
+		    {
+		        System.out.println(1);
+		    }
+		    else
+		    {
+		        System.out.println(0);
+		    }
+		    
+		    t--;
+	}
 }
