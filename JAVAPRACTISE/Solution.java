@@ -72,36 +72,52 @@ Print a single integer — the final value of x.
 
 /* package codechef; // don't place package name! */
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+// import java.util.*;
+// import java.lang.*;
+// import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
-class Solution
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-        int t;
-		Scanner sc=new Scanner(System.in);
-		t=sc.nextInt();
-		while(t>0)
-		{
-		    int n=sc.nextInt();
-		    int largestPowerOf2 = 0;
-		    while(n%2==0)
-		    {
-		        n/=2;
-		        largestPowerOf2++;
-		    }
-		    if(largestPowerOf2%2==0)
-		    {
-		        System.out.println(1);
-		    }
-		    else
-		    {
-		        System.out.println(0);
-		    }
+// /* Name of the class has to be "Main" only if the class is public. */
+// class Solution
+// {
+// 	public static void main (String[] args) throws java.lang.Exception
+// 	{
+//         int t;
+// 		Scanner sc=new Scanner(System.in);
+// 		t=sc.nextInt();
+// 		while(t>0)
+// 		{
+// 		    int n=sc.nextInt();
+// 		    int largestPowerOf2 = 0;
+// 		    while(n%2==0)
+// 		    {
+// 		        n/=2;
+// 		        largestPowerOf2++;
+// 		    }
+// 		    if(largestPowerOf2%2==0)
+// 		    {
+// 		        System.out.println(1);
+// 		    }
+// 		    else
+// 		    {
+// 		        System.out.println(0);
+// 		    }
 		    
-		    t--;
-	}
-}
+// 		    t--;
+// 	}
+// }
+// }
+
+/*
+ Little Petya loves presents. His mum bought him two strings of the same size for his birthday. 
+ The strings consist of uppercase and lowercase Latin letters. Now Petya wants to compare those two strings 
+ lexicographically. The letters' case does not matter, that is an uppercase letter is considered equivalent 
+ to the corresponding lowercase letter. Help Petya perform the comparison.
+Input
+Each of the first two lines contains a bought string. The strings' lengths range from 1 to 100 inclusive. 
+It is guaranteed that the strings are of the same length and also consist of uppercase and lowercase Latin 
+letters.
+Output
+If the first string is less than the second one, print "-1". If the second string is less than the first one, 
+print "1". If the strings are equal, print "0". Note that the letters' case is not taken into consideration 
+when the strings are compared.
+ */
