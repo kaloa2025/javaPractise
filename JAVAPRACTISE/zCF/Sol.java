@@ -1,3 +1,4 @@
+package zCF;
 import java.util.*;
 /*
 Little Petya loves presents. His mum bought him two strings of the same size for his birthday. 

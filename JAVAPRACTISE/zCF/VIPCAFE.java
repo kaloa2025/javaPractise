@@ -1,3 +1,4 @@
+package zCF;
 import java.util.*;
 public class VIPCAFE {
     public static int Findmax(int[] a)

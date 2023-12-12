@@ -1,3 +1,4 @@
+package zCF;
 import java.util.*;
 /*
 Xenia the beginner mathematician is a third year student at elementary school. 

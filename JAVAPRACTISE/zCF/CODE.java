@@ -1,3 +1,4 @@
+package zCF;
 import java.util.*;
 public class CODE {
     public static int mbs(int n,int m,int[][] c,int[][] r)

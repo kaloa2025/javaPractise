@@ -1,3 +1,4 @@
+package zCF;
 // // /*
 // // You are given a rectangular board of M × N squares.
 // //  Also you are given an unlimited number of standard domino pieces 
