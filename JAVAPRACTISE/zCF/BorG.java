@@ -21,7 +21,7 @@ public class BorG {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
-        int t=0;
+        int t=0,z=0;
         for(int i=0;i<s.length();i++)
         {
             int count=0;
@@ -30,13 +30,15 @@ public class BorG {
                 if(s.charAt(i)==s.charAt(j))
                 {
                     count++;
-                }   
+                }
             }
+            if(count>1){z++;}
             if(count==1)
                 {
                     t++;
                 }
         }
+        t=t+(z/2);
         if(t%2==0)
         {
             System.out.println("CHAT WITH HER!");
