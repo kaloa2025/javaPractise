@@ -41,11 +41,11 @@ public class BorG {
         t=t+(z/2);
         if(t%2==0)
         {
-            System.out.println("CHAT WITH HER!");
+            System.out.println("CHAT WITH HER!"+" "+t);
         }
         else
         {
-            System.out.println("IGNORE HIM!");
+            System.out.println("IGNORE HIM!"+" "+t);
         }
     }
 }
