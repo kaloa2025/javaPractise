@@ -35,7 +35,7 @@ public class Tram {
             a[i]=sc.nextInt();
             b[i]=sc.nextInt();
         }
-        int cap=0,max=1;
+        int cap=0,max=0;
         c[0]=b[0];
         for(int i=1;i<n;i++)
         {
@@ -45,6 +45,7 @@ public class Tram {
                 max=c[i];
             }
         }
+        if(b[0]>max){max=b[0];}
         System.out.println(max);
     }
 }
