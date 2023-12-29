@@ -31,12 +31,19 @@ public class Magnets {
         }
         for(int i=1;i<n;i++)
         {
-            if(s[i].equals(s[i-1]))
+            if(!s[i].equals(s[i-1]))
             {
                 count++;
             }
         }
-        System.out.println(count);
+        if(count==0)
+        {
+            System.out.println(1);
+        }
+        else
+        {
+            System.out.println(++count);
+        }
     }
 }
 /*
