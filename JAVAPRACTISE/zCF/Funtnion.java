@@ -26,16 +26,10 @@ import java.util.*;
 public class Funtnion {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        System.out.println(calculatef(n));
-    }
-
-    private static int calculatef(int n) {
-        int z=0;
-        for(int i=0;i<=n;i++)
-        {
-            z+=(int)(Math.pow(-1.0, (double)i))*i;
-        }
-        return z;
+        long n=sc.nextInt();
+        long z=0;
+        if(n%2==0){z=(n)/2;}
+        else{z=(-n-1)/2;}
+        System.out.println(z);
     }
 }
