@@ -26,7 +26,7 @@ import java.util.*;
 public class Funtnion {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        long n=sc.nextInt();
+        long n=sc.nextLong();
         long z=0;
         if(n%2==0){z=(n)/2;}
         else{z=(-n-1)/2;}
