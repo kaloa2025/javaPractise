@@ -123,28 +123,64 @@ package zCF;
 // when the strings are compared.
 //  */\
 
-import java.util.List;
+// import java.util.List;
 
-class Solution {
-    public boolean isAcronym(List<String> words, String s) {
-        for (int i = 0; i < words.size(); i++) {
-            String a = words.get(i);
+// class Solution {
+//     public boolean isAcronym(List<String> words, String s) {
+//         for (int i = 0; i < words.size(); i++) {
+//             String a = words.get(i);
             
-            // Check if the index is within the bounds of the word
-            if (i < a.length()) {
-                char ch = a.charAt(i);
-                System.out.println(ch);
+//             // Check if the index is within the bounds of the word
+//             if (i < a.length()) {
+//                 char ch = a.charAt(i);
+//                 System.out.println(ch);
 
-                if (ch == s.charAt(i)) {
-                    // Do something if needed
-                } else {
-                    return false;
-                }
-            } else {
-                // Handle the case where the word is shorter than the current index in the string
-                return false;
+//                 if (ch == s[i]) {
+//                     // Do something if needed
+//                 } else {
+//                     return false;
+//                 }
+//             } else {
+//                 // Handle the case where the word is shorter than the current index in the string
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+// }
+
+import java.util.*;
+class Solution{
+    public static String convert(String a) 
+    { 
+        char[] s=new char[a.length()];
+        for(int i=0;i<s.length;i++)
+        {
+            s[i]=a.charAt(i);
+        }
+        for(int i=0;i<s.length;i++)
+        {
+            if(s[i]>='A'&&s[i]<='Z')
+            {
+                int x = (int)s[i];
+                int y = x-65;
+                char c= (char)(90-y);
+                // System.out.println(x+" "+y+" "+c);
+                s[i]=c;
+            }
+            else
+            {
+                int x = (int)s[i];
+                int y = x-97;
+                char c= (char)(122-y);
+                // System.out.println(x+" "+y+" "+c);
+                s[i]=c;
             }
         }
-        return true;
+        String b=new String(s);
+        return b;
+    }
+    public static void main(String[] args) {
+        System.out.print(convert("Hello"));
     }
 }
