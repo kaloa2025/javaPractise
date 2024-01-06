@@ -17,7 +17,10 @@ public class Pangram {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        String s=sc.nextLine();
+        int count=0;
+        String s=sc.next();
+        s=s.toLowerCase();
+        char[] a={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
         if(n<26)
         {
             System.out.println("NO");
@@ -28,9 +31,26 @@ public class Pangram {
             {
                 for(int j=0;j<26;j++)
                 {
-                    
+                    if(s.charAt(i)==a[j])
+                    {
+                        a[j]='0';
+                    }
                 }
             } 
+            for(int i=0;i<26;i++)
+            {
+                if(a[i]!='0')
+                {
+                    System.out.println("NO");
+                    break;
+                }
+                else
+                {
+                    count++;
+                }
+            }
+            if(count==26)
+            {System.out.println("YES");}
         }
     }
 }
