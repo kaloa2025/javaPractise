@@ -1,3 +1,4 @@
+package zCF;
 /*
 Allen has a LOT of money. He has n dollars in the bank. For security reasons, 
 he wants to withdraw it in cash (we will not disclose the reasons here).
