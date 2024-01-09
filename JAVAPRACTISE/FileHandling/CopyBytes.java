@@ -14,8 +14,8 @@ public class CopyBytes {
         {
             in = new FileInputStream("D:/Jav.txt");
             out = new FileOutputStream("D:\\outagain.txt");
+            
             int c;
-
             while ((c = in.read()) != -1) {
                 out.write(c);
             }
