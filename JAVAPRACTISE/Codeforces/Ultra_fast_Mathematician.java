@@ -18,7 +18,7 @@ Output
 Write one line — the corresponding answer. Do not omit the leading 0s.
 */
 import java.util.*;
-public class UFM {
+public class Ultra_fast_Mathematician {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String a=sc.next();

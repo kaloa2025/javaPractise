@@ -21,7 +21,7 @@ must equal "B", otherwise it must equal "G".
  */
 
 import java.util.*;
-public class QueueatSchool {
+public class Queue_at_the_School {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();//no of children

@@ -1,3 +1,4 @@
+package Codeforces;
 /*
 Recently, Anton has found a set. The set consists of small English letters. Anton carefully wrote out all the letters from the set in one line, 
 separated by a comma. He also added an opening curved bracket at the beginning of the line and a closing curved bracket at the end of the line.
@@ -11,7 +12,7 @@ Output
 Print a single number — the number of distinct letters in Anton's set.
 */
 import java.util.*;
-public class Anton {
+public class Anton_and_Letters {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         String inputLine = scanner.nextLine().trim();

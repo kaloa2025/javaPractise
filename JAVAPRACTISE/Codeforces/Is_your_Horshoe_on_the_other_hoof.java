@@ -13,7 +13,7 @@ utput
 Print a single integer — the minimum number of horseshoes Valera needs to buy.
  */
 import java.util.*;
-public class Horshoe {
+public class Is_your_Horshoe_on_the_other_hoof {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int[] a=new int[4];

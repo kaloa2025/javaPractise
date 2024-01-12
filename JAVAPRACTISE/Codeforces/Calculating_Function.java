@@ -23,7 +23,7 @@ f(4) =  - 1 + 2 - 3 + 4 = 2
 f(5) =  - 1 + 2 - 3 + 4 - 5 =  - 3
  */
 import java.util.*;
-public class Funtnion {
+public class Calculating_Function {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         long n=sc.nextLong();

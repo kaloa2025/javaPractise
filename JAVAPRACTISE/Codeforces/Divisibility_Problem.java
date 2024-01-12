@@ -10,7 +10,7 @@ Output
 For each test case print the answer — the minimum number of moves you need to do in order to make a  divisible by b
  */
 import java.util.*;
-public class Divisibility {
+public class Divisibility_Problem {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();

@@ -22,7 +22,7 @@ outputCopy
 2014
  */
 import java.util.*;
-public class Year {
+public class Beautiful_Year {
     public static boolean hasduplicates(int i)
     {
         ArrayList<Integer> a=new ArrayList<>();

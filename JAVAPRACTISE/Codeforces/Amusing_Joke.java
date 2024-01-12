@@ -20,7 +20,7 @@ Print "YES" without the quotes, if the letters in the pile could be permuted to 
 print "NO" without the quotes.
 */
 import java.util.*;
-public class Joke {
+public class Amusing_Joke {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String gh=sc.nextLine();

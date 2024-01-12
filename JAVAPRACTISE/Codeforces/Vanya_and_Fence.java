@@ -14,7 +14,7 @@ Output
 Print a single integer — the minimum possible valid width of the road.
 */
 import java.util.*;
-public class Fence {
+public class Vanya_and_Fence {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();

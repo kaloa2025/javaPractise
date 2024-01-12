@@ -1,6 +1,6 @@
 package Codeforces;
 import java.util.*;
-public class Sisters 
+public class Candies_and_Two_Sisters 
 {
     public static void main(String[] args)
 {

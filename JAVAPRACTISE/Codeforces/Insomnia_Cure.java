@@ -14,7 +14,7 @@ Output
 Output the number of damaged dragons.
 */
 import java.util.*;
-public class Dragon {
+public class Insomnia_Cure {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int k=sc.nextInt();

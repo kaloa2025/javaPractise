@@ -10,7 +10,7 @@ Output
 Output the given word after capitalization.
  */
 import java.util.*;
-public class Cap {
+public class Word_Capitalization {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();

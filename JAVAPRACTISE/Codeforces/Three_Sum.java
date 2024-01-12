@@ -1,7 +1,7 @@
 package Codeforces;
 
 import java.util.*;
-public class ThreeSum {
+public class Three_Sum {
         public static List<List<Integer>> threeSum(int[] n) {
             ArrayList<Integer> l=new ArrayList<Integer>();
             List<List<Integer>> a=new ArrayList<List<Integer>>();

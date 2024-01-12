@@ -36,7 +36,7 @@ In the third sample there are no lucky digits, so the answer is "NO".
 
  */
 import java.util.*;
-public class LuckyNo {
+public class Nearly_Lucky_Number {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         long n=sc.nextLong();

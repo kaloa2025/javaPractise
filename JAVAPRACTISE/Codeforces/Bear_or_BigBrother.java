@@ -17,7 +17,7 @@ inputCopy
 outputCopy
 2
  */
-public class Bear {
+public class Bear_or_BigBrother {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();

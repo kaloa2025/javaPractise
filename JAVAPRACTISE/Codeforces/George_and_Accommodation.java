@@ -13,7 +13,7 @@ Output
 Print a single integer — the number of rooms where George and Alex can move in.
  */
 import java.util.*;
-public class George {
+public class George_and_Accommodation {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();

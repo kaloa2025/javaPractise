@@ -14,7 +14,7 @@ Output one integer — the amount of dollars that the soldier must borrow from h
 3 17 4
 13
  */
-public class Bananas {
+public class Soldier_and_Bananas {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int k=sc.nextInt();//ik dollar for ith banana

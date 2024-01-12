@@ -20,7 +20,7 @@ Output
 Print the only integer — the minimum number of seconds the colonel will need to form a line-up the general will like.
 */
 import java.util.*;
-public class General {
+public class Arrival_of_General {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();

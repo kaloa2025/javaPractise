@@ -13,7 +13,7 @@ If the first string is less than the second one, print "-1". If the second strin
 print "1". If the strings are equal, print "0". Note that the letters' case is not taken into consideration 
 when the strings are compared.
  */
-public class Sol {
+public class Presents_II {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s1=sc.nextLine();

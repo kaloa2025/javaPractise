@@ -17,7 +17,7 @@ Output
 If it is a female by our hero's method, print "CHAT WITH HER!" (without the quotes), otherwise, print 
 "IGNORE HIM!" (without the quotes).
  */
-public class BorG {
+public class Boy_or_Girl {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();

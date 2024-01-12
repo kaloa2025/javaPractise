@@ -14,7 +14,7 @@ You may print every letter in any register: "EASY", "easy", "EaSY" and "eAsY" al
  */
 
 import java.util.*;
-public class EasyProb {
+public class In_Search_of_Easy_Problem {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int count=0;

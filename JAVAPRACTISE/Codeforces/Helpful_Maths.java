@@ -22,7 +22,7 @@ inputCopy
 outputCopy
 1+2+3
  */
-public class HelpfulMaths {
+public class Helpful_Maths {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();

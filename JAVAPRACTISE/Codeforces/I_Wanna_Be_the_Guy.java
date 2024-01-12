@@ -14,7 +14,7 @@ Output
 If they can pass all the levels, print "I become the guy.". If it's impossible, print "Oh, my keyboard!" (without the quotes).
  */
 import java.util.*;
-public class Him {
+public class I_Wanna_Be_the_Guy {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();

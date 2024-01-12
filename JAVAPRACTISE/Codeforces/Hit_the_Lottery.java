@@ -13,7 +13,7 @@ Output
 Output the minimum number of bills that Allen could receive.
 */
 import java.util.*;
-public class Lottery {
+public class Hit_the_Lottery {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         long n=sc.nextLong();

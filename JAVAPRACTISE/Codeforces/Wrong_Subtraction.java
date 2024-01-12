@@ -31,7 +31,7 @@ Note
 The first example corresponds to the following sequence: 512→511→510→51→50
 .
  */
-public class Wrongsub {
+public class Wrong_Subtraction {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         long n=sc.nextInt();
