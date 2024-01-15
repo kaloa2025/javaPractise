@@ -19,11 +19,18 @@ public class New_Year_and_Hurry {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int k=sc.nextInt();
-        int time=0;
-        for(int i=1;i<=n;i++)
+        int i,sum=0,res=240-k,c=0;
+
+        for (i=1; i<=n; i++)
         {
-            time+=5*i;
+            sum += 5 * i;
+
+            if (sum > res)
+                break;
+
+            c = c + 1;
         }
+        System.out.println(c);
     }    
 }
 /*
