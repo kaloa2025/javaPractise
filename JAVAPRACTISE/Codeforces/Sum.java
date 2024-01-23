@@ -30,7 +30,7 @@ public class Sum {
         for(int i=0;i<t;i++)
         {
             int[]a=new int[3];
-            for(int j=0;j<3;j+Again+)
+            for(int j=0;j<3;j++)
             {
                 a[j]=sc.nextInt();
             }

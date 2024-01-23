@@ -20,4 +20,3 @@ public class Vasya_the_Hipster{
     }
     }
 }
-}
